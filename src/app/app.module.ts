@@ -6,6 +6,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { NpmlibMatchipComponent, NpmlibMatchipModule } from 'npmlib-matchip';
 
 @NgModule({
   declarations: [
@@ -14,10 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatChipsModule,
-    BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatIconModule,
+    NpmlibMatchipModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
